@@ -5,13 +5,14 @@ Overview
 This project automates the account creation and login functionalities on the Magento test site, using BDD methodology and the Page Object Model. The suite is implemented with Selenium WebDriver and Java (you can mention Cucumber, TestNG, or Behave as per your stack).
 
 Repository Structure
-text
+
 /features         # BDD feature files (Gherkin)
-/feature/steps    # Step definitions (Java)
+/stepdefinitions    # Step definitions (Java)
 /pages            # Page Object classes
-/tests            # Test runners
-/screenshots      # Proof of execution (screenshots or video)
+/runners           # Test runners
+/utils      # base class 
 /TestCases_MagentoAccount.xlsx  # Excel documentation of cases
+/bdd_automation_REC.mp4
 README.md
 pom.xml           # Maven config (if using Maven)
 
@@ -38,5 +39,5 @@ Scenario: Successful Account Registration
   
 Proof of Execution
 
-For video: /screenshots/execution_proof.mp4
+For video: bdd_automation_REC.mp4
 
