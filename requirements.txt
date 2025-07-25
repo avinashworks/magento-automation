@@ -1,0 +1,1 @@
+# Not used. Java dependencies are managed in pom.xml (Maven) or build.gradle (Gradle).
